@@ -1,5 +1,7 @@
 # Arduino-IDE
-Arduino IDE Projects for beginners
+// Arduino IDE Projects for beginners
+//LED blink project
+
 
 int ledPin = 13;            // LED connected to digital pin 13
 
@@ -15,4 +17,3 @@ void loop()
   digitalWrite(ledPin, LOW);    // sets the LED off
   delay(1000);                  // waits for a second
 }
-
